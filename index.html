@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les Cours SONOU - Le Symbole de la Qualité</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/lcs_logo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
+  <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <img src="./assets/images/lcs_logo.png" width="50" height="50">
+
+      <h1>
+        <a href="#" class="logo">LES COURS SONOU</a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">LES COURS SONOU</a>
+
+          <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-toggler>Accueil</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./institut.html" class="navbar-link" data-nav-toggler>L'Institut</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./formations.html" class="navbar-link" data-nav-toggler>Nos Formations</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./inscription.html" class="navbar-link" data-nav-toggler>Inscription en ligne</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#event" class="navbar-link" data-nav-toggler>E-learning</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./blog.html" class="navbar-link" data-nav-toggler>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn" aria-label="Open search" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="header-action-btn login-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Se connecter / S'inscrire</span>
+        </a>
+
+        <button class="header-action-btn nav-open-btn" aria-label="Open menu" data-nav-toggler>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BOX
+  -->
+
+  <div class="search-container" data-search-box>
+    <div class="container">
+
+      <button class="search-close-btn" aria-label="Close search" data-search-toggler>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="search-wrapper">
+        <input type="search" name="search" placeholder="Search Here..." aria-label="Search" class="search-field">
+
+        <button class="search-submit" aria-label="Submit" data-search-toggler>
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="hero" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Ensemble Construisons votre futur</p>
+
+            <h2 class="h1 hero-title">L'éducation, c'est l'excellence académique</h2>
+
+            <p class="hero-text">
+              La qualité de l'éducation fourni par LES COURS SONOU est de haute qualité. Ceux-ci oeuvres afin 
+              fournir aux entreprises, des professionnelles aptes à répondre et satisfaire aux besoins des 
+              clients et entreprises du marché.
+            </p>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Nous Rejoindre</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="500" height="500" loading="lazy" alt="hero image"
+              class="w-100">
+
+            <img src="./assets/images/hero-abs-1.png" width="318" height="352" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-1">
+
+            <img src="./assets/images/hero-abs-3.png" width="160" height="160" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-2">
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="category">
+        <div class="container">
+
+          <p class="section-subtitle">Nos Fillières</p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Relations Internationales</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="file-tray-full-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Ressources Humaines</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+           
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="layers-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Droit des Affaires</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="laptop-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Sciences Informatique</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="thumbs-up-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Transport et Logistique</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="headset-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Gestion de Projets</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Banque Finace Assurance</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="category-card">
+
+                <div class="card-icon">
+                  <ion-icon name="medkit-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">
+                    <a href="#">Audit et Controle de Gestion</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="450" height="590" loading="lazy" alt="about banner"
+              class="w-100 about-img">
+
+            <img src="./assets/images/about-abs-1.jpg" width="188" height="242" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-1">
+
+            <img src="./assets/images/about-abs-2.jpg" width="150" height="200" loading="lazy" aria-hidden="true"
+              class="abs-img abs-img-2">
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Qui Sommes Nous</p>
+
+            <h2 class="h2 section-title">Nous vous offrons la meilleure Carrière</h2>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+
+                <div class="item-icon item-icon-1">
+                  <img src="./assets/images/about-icon-1.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+
+                <div>
+                  <h3 class="h3 item-title">Ecosystème</h3>
+
+                  <p class="item-text">
+                    A travers nos différents sites sur l'étendu du territoire nationale, nous disposons de nombreuses 
+                    salles de cours pour la transmission du savoir entres Professeurs - Etudiants.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="item-icon item-icon-2">
+                  <img src="./assets/images/about-icon-2.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+
+                <div>
+                  <h3 class="h3 item-title">Formations</h3>
+
+                  <p class="item-text">
+                    Reconnus dans la spère d'excellence, nos formations s'adaptent aux réalités du monde professionnel 
+                    et s'intègrent dans une dynamique de partenariat Ecole - Entreprise. 
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="about-item">
+
+                <div class="item-icon item-icon-3">
+                  <img src="./assets/images/about-icon-3.png" width="30" height="30" loading="lazy" aria-hidden="true">
+                </div>
+
+                <div>
+                  <h3 class="h3 item-title">Diplômes</h3>
+
+                  <p class="item-text">
+                    Agréé par l'Etat Béninois depuis 2007, vous obtiendrez des diplômes d'Etat en Licences et Master.
+                    Nos formations sont reconnus à l'Internationale.
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Découvrez-nous</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="workshop" style="background-image: url('./assets/images/cta-bg.png')">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.webp" width="580" height="380" loading="lazy" alt="cta banner"
+              class="img-cover">
+          </figure>
+
+          <div class="cta-content">
+
+            <p class="section-subtitle">Bourses Offertes</p>
+
+            <h2 class="h2 section-title">Rejoignez nous pour la rentrée prochaine</h2>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet, consect adipi scing elit, sed do
+              eiusmod tempor
+              incididunt ut sed do eiusmod tempor incididunt ut labore et dolore aliqua.
+            </p>
+
+            <a href="#" class="btn btn-secondary">
+              <span class="span">S'inscrire</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event" id="event" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle">Actualités</p>
+
+          <h2 class="h2 section-title">Mieux nous connaitre</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/event-1.jpg" width="370" height="250" loading="lazy"
+                    alt="Women Day class="img-cover">
+                </figure>
+
+                <time class="badge" datetime="2022-03-08">08 Mars 2022</time>
+
+                <div class="card-content">
+
+                  <address class="card-address">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Caboma Cotonou Benin, CA 92805</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Journée de la femme aux COURS SONOU</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lire plus</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/event-2.jpeg" width="370" height="250" loading="lazy"
+                    alt="Lancement examen" class="img-cover">
+                </figure>
+
+                <time class="badge" datetime="2022-10-30">30th Oct 2022</time>
+
+                <div class="card-content">
+
+                  <address class="card-address">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Tous sites confondus</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Lancemant des examens uniques sur tous les sites de LCS</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lire plus</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/event-3.webp" width="370" height="250" loading="lazy"
+                    alt="Reunio Personnel" class="img-cover">
+                </figure>
+
+                <time class="badge" datetime="2022-09-18">18th Sep 2022</time>
+
+                <div class="card-content">
+
+                  <address class="card-address">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Site1 Parakou Benin, PA 17401</span>
+                  </address>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Billan Annuel: Réunion du personnel</a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Lire plus</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter" aria-label="newsletter"
+        style="background-image: url('./assets/images/newsletter-bg.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle">S'abonner' à notre Boite Mail</p>
+
+          <h2 class="h2 section-title">Recevez toutes les dernières nouvelles</h2>
+
+          <form action="" class="newsletter-form">
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" aria-label="email" placeholder="Entrez votre adresse e-mail" required
+                class="email-field">
+
+              <ion-icon name="mail-open-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <span class="span">S'abonner</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">LES COURS SONOU</a>
+
+          <p class="section-text">
+            L'éducation est l'arme la plus puissante pour changer le monde.
+            
+            <span style="color: hsl(189, 67%, 81%); font-size: 1rem; padding:0.5rem;">Nelson Mandela<span>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#home" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Explorer</p>
+          </li>
+
+          <li>
+            <a href="./blog.html" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Événements à venir</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">FAQ</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Termes et conditions</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Politique de confidentialité</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Liens utiles</p>
+          </li>
+
+          <li>
+            <a href="#home" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Accueil</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="./institut.html" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">L'Institut</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="./formations.html" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Nos Formations</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Inscription en ligne</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">E-learning</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="./blog.html" class="footer-link">
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+
+              <span class="span">Blog</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+            <address class="footer-link">
+              Lot 66 Caboma - Atinkanmey Cotonou, Benin <br><br>
+              03 BP 2101 Cotonou - République du Benin
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+22960412121" class="footer-link">+ (229) 604-12121</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+22921315670" class="footer-link">+ (229) 213-15670</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:contact@lescoursonou-university.org" class="footer-link">contact@lescoursonou-university.org</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          Copyright 2022  |  LES COURS SONOU  |  Tous droits réservés par <a href="https://www.linkedin.com/in/kounde-esperanza/" class="copyright-link">Hope</a>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

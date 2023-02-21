@@ -1,0 +1,496 @@
+
+
+  <main>
+    <article>
+
+      
+      <!-- 
+        - #COURSES LICENCE
+      -->
+
+      <section class="section course" id="courses" aria-label="course"
+        style="background-image: url('./assets/images/course-bg.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle">Découvrez notre catalogue</p>
+
+          <h2 class="h2 section-title">LICENCE</h2>
+
+          <ul class="grid-list">
+
+            <li>
+                <div class="course-card">
+
+                    <figure class="card-banner">
+                    <img src="../assets/images/course-1.jpg" width="370" height="270" loading="lazy"
+                        alt="Marketing et Action Commercial" class="img-cover">
+                    </figure>
+
+                    <div class="card-actions">
+
+                        <span class="badge">Licence</span>
+
+                    </div>
+
+                    <div class="card-content">
+                        <h3 class="h3">
+                            <a href="#" class="card-title">Marketing et Action Commercial</a>
+                        </h3>
+                    </div>
+
+                </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-2.jpg" width="370" height="270" loading="lazy"
+                    alt="Comptabilité et Finance d'Entreprise" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Comptabilité et Finance d'Entreprise</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-3.jpg" width="370" height="270" loading="lazy"
+                    alt="Banque et Assurance" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Banque et Assurance</a>
+                  </h3>               
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-4.jpg" width="370" height="270" loading="lazy"
+                    alt="Management des Ressources Humaines" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Management des Ressources Humaines</a>
+                  </h3>                  
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-5.jpg" width="370" height="270" loading="lazy"
+                    alt="Communication d'Entreprise" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Communication d'Entreprise</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-6.jpg" width="370" height="270" loading="lazy"
+                    alt="Création d'Entreprise et Gestions de projets" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Création d'Entreprise et Gestions de projets</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                  <figure class="card-banner">
+                  <img src="../assets/images/course-1.jpg" width="370" height="270" loading="lazy"
+                      alt="Marketing et Action Commercial" class="img-cover">
+                  </figure>
+
+                  <div class="card-actions">
+
+                      <span class="badge">Licence</span>
+
+                  </div>
+
+                  <div class="card-content">
+                      <h3 class="h3">
+                          <a href="#" class="card-title">Sciences Politique et Relations Internationales</a>
+                      </h3>
+                  </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-2.jpg" width="370" height="270" loading="lazy"
+                    alt="Comptabilité et Finance d'Entreprise" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Journalisme</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-3.jpg" width="370" height="270" loading="lazy"
+                    alt="Banque et Assurance" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Informatique Industrielle et Maintenance</a>
+                  </h3>               
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-4.jpg" width="370" height="270" loading="lazy"
+                    alt="Management des Ressources Humaines" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Transport et Logistique</a>
+                  </h3>                  
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-5.jpg" width="370" height="270" loading="lazy"
+                    alt="Communication d'Entreprise" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Management des Collectivités Locales</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-6.jpg" width="370" height="270" loading="lazy"
+                    alt="Création d'Entreprise et Gestions de projets" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tourisme, Hôtellerie et Restauration</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                  <figure class="card-banner">
+                  <img src="../assets/images/course-1.jpg" width="370" height="270" loading="lazy"
+                      alt="Marketing et Action Commercial" class="img-cover">
+                  </figure>
+
+                  <div class="card-actions">
+
+                      <span class="badge">Licence</span>
+
+                  </div>
+
+                  <div class="card-content">
+                      <h3 class="h3">
+                          <a href="#" class="card-title">Système Informatique et Logiciels</a>
+                      </h3>
+                  </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-2.jpg" width="370" height="270" loading="lazy"
+                    alt="Comptabilité et Finance d'Entreprise" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Sécurité des Systèmes et Réseau Informatique</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-3.jpg" width="370" height="270" loading="lazy"
+                    alt="Banque et Assurance" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Réseau Informatique et Télécommunication</a>
+                  </h3>               
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-4.jpg" width="370" height="270" loading="lazy"
+                    alt="Management des Ressources Humaines" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Installation Energétique</a>
+                  </h3>                  
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-5.jpg" width="370" height="270" loading="lazy"
+                    alt="Communication d'Entreprise" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Electrotechnique</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-6.jpg" width="370" height="270" loading="lazy"
+                    alt="Création d'Entreprise et Gestions de projets" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Techniques Acturielles</a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                  <figure class="card-banner">
+                  <img src="../assets/images/course-1.jpg" width="370" height="270" loading="lazy"
+                      alt="Marketing et Action Commercial" class="img-cover">
+                  </figure>
+
+                  <div class="card-actions">
+
+                      <span class="badge">Licence</span>
+
+                  </div>
+
+                  <div class="card-content">
+                      <h3 class="h3">
+                          <a href="#" class="card-title">Techniques de l'image et de prise de son</a>
+                      </h3>
+                  </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-2.jpg" width="370" height="270" loading="lazy"
+                    alt="Comptabilité et Finance d'Entreprise" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Production et Réalisation Audiovisuelles</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner">
+                  <img src="../assets/images/course-3.jpg" width="370" height="270" loading="lazy"
+                    alt="Banque et Assurance" class="img-cover">
+                </figure>
+
+                <div class="card-actions">
+                  <span class="badge">Licence</span>
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Informatique Appliquée à la Gestion des Entreprises</a>
+                  </h3>               
+                </div>
+
+              </div>
+            </li>
+          
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>

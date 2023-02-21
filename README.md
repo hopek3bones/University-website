@@ -1,0 +1,2 @@
+# Lcs-website
+For School

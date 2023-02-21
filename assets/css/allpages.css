@@ -1,0 +1,59 @@
+/*-----------------------------------*\
+  #allpages.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 designed by hope
+ */
+
+
+
+/*-----------------------------------*\
+  #INSTITUT
+\*-----------------------------------*/
+
+/*********************************Hero***********************************/
+.cta {
+    padding-block-start: calc(60px + var(--section-padding));
+    padding-block-end: var(--section-padding);
+}
+
+.cta .first-section-title {
+    text-align: center;
+    padding: 30px;
+}
+
+.cta-content p {
+    text-align: justify;
+}
+
+.cta-content .section-title,
+.cta-content .section-subtitle {
+    color: hsl(247, 35%, 19%);
+}
+
+
+/*********************************Sites***********************************/
+.about { 
+    padding-block-start: calc(60px + var(--section-padding));
+    padding-block-end: var(--section-padding);
+}
+
+
+
+.event-card .site-location {
+    text-align: center;
+}
+
+.event-card .ins-btn-container {
+    width: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+}
+
+.event-card .ins-btn-container .ins-btn {
+    min-height: 20px;
+    margin: 20px;
+    text-align: center;
+}
